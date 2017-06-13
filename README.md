@@ -18,7 +18,7 @@ Explanation about the R script named 'run_analysis.R'.
 
 **Step 5 :** reading the data set 'features.txt' in R with read.table.The variables of the table 'data' are renamed according to the feature table.
 
-**Step 6 :** Extracting only the measurements on the mean and standard deviation for each measurement.The function grepl is used in order to extract only the variables which contain the words 'mean' and 'std'.Be carefull to exclude the variables which contain the word 'meanFreq'.The table resulting is named 'data2'.
+**Step 6 :** Extracting only the measurements on the mean and standard deviation for each measurement. The function grepl is used in order to extract only the variables which contain the words 'mean' and 'std'. Be carefull to exclude the variables which contain the word 'meanFreq'. The table resulting is named 'data2'.
 
 **Step 7 :** reading the data set 'activity_labels.txt' in R with read.table -> table activity.Thanks to the factor function, the numbers written in the column of the activities are replaced by labels that are descriptive activity names according to the table activity.
 
